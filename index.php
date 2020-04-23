@@ -21,7 +21,7 @@
     <div class="row mt-3">
       <div class="mx-auto">
       <h4><?php echo basename($file)?></h4>
-      <video id="my-video" class="video-js" controls preload="metadata" width="640" height="264"
+      <video id="my-video" class="video-js" controls preload="none" width="640" height="264"
           data-setup="{}">
           <source src="videos/<?php echo basename($file)?>" type="video/mp4" />
           <!-- <p class="vjs-no-js"> To view this video please enable JavaScript, and consider upgrading to a
